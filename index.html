@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .profile-image {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      border-radius: 50%;
+    }
+
+    .info {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
+  <h1>My Profile</h1>
   
-  <h2>YouTube Video</h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-  <!-- Replace VIDEO_ID with the ID of your YouTube video -->
-  
-  <h2>Download File</h2>
-  <p>Click the link below to download the file:</p>
-  <a href="path/to/your/file.pdf" download>Download File</a>
-  <!-- Replace "path/to/your/file.pdf" with the actual path to your file -->
-  
+  <img src="path/to/your/profile-image.jpg" alt="Profile Image" class="profile-image">
+  <!-- Replace "path/to/your/profile-image.jpg" with the path to your profile image -->
+
+  <div class="info">
+    <p><strong>Name:</strong> John Doe</p>
+    <p><strong>Location:</strong> City, Country</p>
+    <p><strong>Occupation:</strong> Web Developer</p>
+    <p><strong>About Me:</strong> I'm a passionate web developer with experience in HTML, CSS, and JavaScript. I love creating beautiful and interactive websites.</p>
+  </div>
+
+  <footer>
+    <p>© 2023 My Profile. All rights reserved.</p>
+  </footer>
 </body>
 </html>
